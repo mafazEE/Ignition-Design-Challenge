@@ -1,0 +1,46 @@
+/* Direct stylesheet authoring is an advanced feature. Knowledge of CSS required.*/
+
+
+.psc-userCreatedStyle1 .ia_thermometerComponent__interval {
+    display: none;
+}
+
+.psc-userCreatedStyle1 .ia_thermometerComponent__glass {
+    fill: rgba(255, 255, 255, 0.4);
+    stroke: #6077c0;
+    stroke-width: 2;
+    stroke-opacity: 0.8;
+    filter: drop-shadow(0 0 0);
+}
+
+
+
+.psc-userCreatedStyle1 .ia_thermometerComponent__liquid {
+    opacity: 0.7;
+}
+.psc-userCreatedStyle1 .ia_thermometerComponent__tickLabel {
+    color: white !important;
+    fill: white !important;
+    stroke: none !important;
+    opacity: 0.8 !important;
+    transform: translateX(5px);
+    font-size: 16px;
+}
+
+.psc-userCreatedStyle1 .ia_thermometerComponent__tick {
+    stroke: white !important;
+    stroke-width: 2 !important;
+    fill: none !important;
+    transform: translateX(10px);
+}
+
+
+.psc-userCreatedStyle1 .alarmstatustable .ia_table__headContainer {
+	background-color: transparent;
+}
+
+
+
+
+
+

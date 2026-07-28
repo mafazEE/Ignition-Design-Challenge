@@ -1,0 +1,117 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 218
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "MenuTree"
+        },
+        "position": {
+          "basis": "800px"
+        },
+        "props": {
+          "backActionStyle": {
+            "backgroundColor": "#D5D5D5"
+          },
+          "headerStyle": {
+            "backgroundColor": "#D5D5D5"
+          },
+          "itemStyle": {
+            "color": "#D5D5D5"
+          },
+          "items": [
+            {
+              "backActionText": "",
+              "enabled": true,
+              "items": [],
+              "label": {
+                "icon": {
+                  "color": "#FFFFFF",
+                  "path": "material/home"
+                },
+                "text": "Home"
+              },
+              "navIcon": {
+                "color": "#FFFFFF",
+                "path": "material/chevron_right"
+              },
+              "resetOnClick": false,
+              "showHeader": true,
+              "style": {
+                "classes": ""
+              },
+              "target": "/",
+              "visible": true
+            },
+            {
+              "backActionText": "",
+              "enabled": true,
+              "items": [],
+              "label": {
+                "icon": {
+                  "color": "#FFFFFF",
+                  "path": "material/access_alarm"
+                },
+                "text": "Alarm Status Table"
+              },
+              "navIcon": {
+                "color": "#FFFFFF",
+                "path": "material/chevron_right"
+              },
+              "resetOnClick": false,
+              "showHeader": true,
+              "style": {
+                "classes": ""
+              },
+              "target": "/alarm-view",
+              "visible": true
+            },
+            {
+              "backActionText": "",
+              "enabled": true,
+              "items": [],
+              "label": {
+                "icon": {
+                  "color": "#FFFFFF",
+                  "path": "material/assessment"
+                },
+                "text": "Report Viewer"
+              },
+              "navIcon": {
+                "color": "#FFFFFF",
+                "path": "material/chevron_right"
+              },
+              "resetOnClick": false,
+              "showHeader": true,
+              "style": {
+                "classes": ""
+              },
+              "target": "/report-view",
+              "visible": true
+            }
+          ],
+          "style": {
+            "backgroundColor": "#2B2B2BD9"
+          }
+        },
+        "type": "ia.navigation.menutree"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "outlineStyle": "solid"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

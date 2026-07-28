@@ -1,0 +1,172 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 842,
+      "width": 780
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "780px"
+            },
+            "props": {
+              "text": "Alarm Status Table",
+              "textStyle": {
+                "color": "#FFFFFFD4",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "textAlign": "left"
+              }
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "Alarmstatus Label"
+        },
+        "position": {
+          "basis": "40px"
+        },
+        "props": {
+          "style": {
+            "marginBottom": 5,
+            "marginTop": 5
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "AlarmStatusTable"
+        },
+        "position": {
+          "basis": "381px"
+        },
+        "props": {
+          "columns": {
+            "active": {
+              "activeTime": {
+                "order": 1
+              },
+              "displayPath": {
+                "order": 2
+              },
+              "name": {
+                "order": 0
+              },
+              "priority": {
+                "order": 3
+              },
+              "source": {
+                "enabled": false,
+                "order": 5
+              },
+              "state": {
+                "order": 4
+              }
+            }
+          },
+          "filters": {
+            "active": {
+              "conditions": {
+                "provider": "Rio_tag_provider"
+              }
+            }
+          }
+        },
+        "type": "ia.display.alarmstatustable"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "780px"
+            },
+            "props": {
+              "text": "Alarm Journal Table",
+              "textStyle": {
+                "color": "#FFFFFFD4",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "textAlign": "left"
+              }
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "Alarmjournal Label"
+        },
+        "position": {
+          "basis": "40px"
+        },
+        "props": {
+          "style": {
+            "marginBottom": 5,
+            "marginTop": 40
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "Rio_alarm_journal"
+        },
+        "position": {
+          "basis": "400px"
+        },
+        "props": {
+          "columns": {
+            "displayPath": {
+              "enabled": true
+            },
+            "eventId": {
+              "enabled": false
+            },
+            "eventState": {
+              "enabled": false
+            },
+            "name": {
+              "enabled": true
+            },
+            "source": {
+              "enabled": false
+            },
+            "state": {
+              "enabled": true
+            }
+          },
+          "filter": {
+            "conditions": {
+              "provider": "Rio_tag_provider"
+            }
+          },
+          "name": "Rio_alarm_journal"
+        },
+        "type": "ia.display.alarmjournaltable"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "backgroundColor": "#4B4E52"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

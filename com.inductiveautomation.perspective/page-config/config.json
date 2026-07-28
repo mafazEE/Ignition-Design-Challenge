@@ -1,0 +1,39 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": "Primary/Overview"
+    },
+    "/alarm-view": {
+      "title": "",
+      "viewPath": "Primary/Alarms View"
+    },
+    "/popup-view": {
+      "title": "",
+      "viewPath": "Primary/Popup View"
+    },
+    "/report-view": {
+      "title": "",
+      "viewPath": "Primary/Report View"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom",
+    "left": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 250,
+        "viewParams": {},
+        "viewPath": "Navigation/Navigate"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1255 @@
+{
+  "custom": {},
+  "params": {
+    "stationref": 1
+  },
+  "propConfig": {
+    "params.stationref": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 299,
+      "width": 301
+    },
+    "inputBehavior": "merge"
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Tank 5"
+            },
+            "position": {
+              "height": 0.998,
+              "width": 0.9981,
+              "x": 0.0018,
+              "y": 0.0019
+            },
+            "props": {
+              "elements": [
+                {
+                  "name": "symbol",
+                  "type": "symbol"
+                },
+                {
+                  "elements": [
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0.17",
+                          "stopColor": "#4D4D4D",
+                          "style": {
+                            "stopColor": "#4D4D4D"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.23",
+                          "stopColor": "#5A5A5A",
+                          "style": {
+                            "stopColor": "#5A5A5A"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.34",
+                          "stopColor": "#7D7D7D",
+                          "style": {
+                            "stopColor": "#7D7D7D"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.48",
+                          "stopColor": "#B3B3B3",
+                          "style": {
+                            "stopColor": "#B3B3B3"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.57",
+                          "stopColor": "#A8A8A8",
+                          "style": {
+                            "stopColor": "#A8A8A8"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.73",
+                          "stopColor": "#8B8B8B",
+                          "style": {
+                            "stopColor": "#8B8B8B"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.94",
+                          "stopColor": "#5C5C5C",
+                          "style": {
+                            "stopColor": "#5C5C5C"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#4D4D4D",
+                          "style": {
+                            "stopColor": "#4D4D4D"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_1_",
+                      "name": "SVGID_1_",
+                      "type": "linearGradient",
+                      "x1": "13.7827",
+                      "x2": "21.6733",
+                      "y1": "95.8945",
+                      "y2": "95.8945"
+                    },
+                    {
+                      "d": "M14.91,83.945v22.546h-1.127v1.353l7.891-0.226v-1.127h-1.127V91.837L14.91,83.945z",
+                      "fill": {
+                        "url": "url(#SVGID_1_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    },
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0.17",
+                          "stopColor": "#4D4D4D",
+                          "style": {
+                            "stopColor": "#4D4D4D"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.23",
+                          "stopColor": "#5A5A5A",
+                          "style": {
+                            "stopColor": "#5A5A5A"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.34",
+                          "stopColor": "#7D7D7D",
+                          "style": {
+                            "stopColor": "#7D7D7D"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.48",
+                          "stopColor": "#B3B3B3",
+                          "style": {
+                            "stopColor": "#B3B3B3"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.57",
+                          "stopColor": "#A8A8A8",
+                          "style": {
+                            "stopColor": "#A8A8A8"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.73",
+                          "stopColor": "#8B8B8B",
+                          "style": {
+                            "stopColor": "#8B8B8B"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.94",
+                          "stopColor": "#5C5C5C",
+                          "style": {
+                            "stopColor": "#5C5C5C"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#4D4D4D",
+                          "style": {
+                            "stopColor": "#4D4D4D"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_2_",
+                      "name": "SVGID_2_",
+                      "type": "linearGradient",
+                      "x1": "50.7231",
+                      "x2": "58.6138",
+                      "y1": "93.9229",
+                      "y2": "93.9229"
+                    },
+                    {
+                      "d": "M51.85,89.865v14.654h-1.127v1.353l7.891-0.226v-1.127h-1.128V81.974L51.85,89.865z",
+                      "fill": {
+                        "url": "url(#SVGID_2_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    }
+                  ],
+                  "id": "Group_BackLegs",
+                  "name": "Group_BackLegs",
+                  "type": "group"
+                },
+                {
+                  "elements": [
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.45",
+                          "stopColor": "#ECECEC",
+                          "style": {
+                            "stopColor": "#ECECEC"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.55",
+                          "stopColor": "#D9D9D9",
+                          "style": {
+                            "stopColor": "#D9D9D9"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.76",
+                          "stopColor": "#A8A8A8",
+                          "style": {
+                            "stopColor": "#A8A8A8"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.77",
+                          "stopColor": "#A6A6A6",
+                          "style": {
+                            "stopColor": "#A6A6A6"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_3_",
+                      "name": "SVGID_3_",
+                      "type": "linearGradient",
+                      "x1": "0",
+                      "x2": "71.9214",
+                      "y1": "37.9097",
+                      "y2": "37.9097"
+                    },
+                    {
+                      "d": "M0,6.802c0,0,31.77,3.013,71.919-0.039c0.002,5.778,0.002,59.149,0.002,59.149   C19.146,72.902,0,66.056,0,66.056L0,6.802z",
+                      "fill": {
+                        "url": "url(#SVGID_3_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    },
+                    {
+                      "cx": "49.1431",
+                      "cy": "77.4668",
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0.04",
+                          "stopColor": "#333333",
+                          "style": {
+                            "stopColor": "#333333"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.05",
+                          "stopColor": "#3E3E3E",
+                          "style": {
+                            "stopColor": "#3E3E3E"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.14",
+                          "stopColor": "#878787",
+                          "style": {
+                            "stopColor": "#878787"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.21",
+                          "stopColor": "#BDBDBD",
+                          "style": {
+                            "stopColor": "#BDBDBD"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.26",
+                          "stopColor": "#DEDEDE",
+                          "style": {
+                            "stopColor": "#DEDEDE"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.29",
+                          "stopColor": "#EBEBEB",
+                          "style": {
+                            "stopColor": "#EBEBEB"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.54",
+                          "stopColor": "#9F9F9F",
+                          "style": {
+                            "stopColor": "#9F9F9F"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.76",
+                          "stopColor": "#656565",
+                          "style": {
+                            "stopColor": "#656565"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.91",
+                          "stopColor": "#414141",
+                          "style": {
+                            "stopColor": "#414141"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#333333",
+                          "style": {
+                            "stopColor": "#333333"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_4_",
+                      "name": "SVGID_4_",
+                      "r": "47.0712",
+                      "type": "radialGradient"
+                    },
+                    {
+                      "d": "M0,66.056c3.937,0.861,30.479,3.299,35.644,2.726c0,8.465,0.168,37.377,0.168,37.377   c-1.972,0.141-4.329-0.361-4.329-0.361L0,66.056z",
+                      "fill": {
+                        "url": "url(#SVGID_4_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    },
+                    {
+                      "cx": "50.8218",
+                      "cy": "77.2676",
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0.04",
+                          "stopColor": "#333333",
+                          "style": {
+                            "stopColor": "#333333"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.05",
+                          "stopColor": "#3E3E3E",
+                          "style": {
+                            "stopColor": "#3E3E3E"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.14",
+                          "stopColor": "#878787",
+                          "style": {
+                            "stopColor": "#878787"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.21",
+                          "stopColor": "#BDBDBD",
+                          "style": {
+                            "stopColor": "#BDBDBD"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.26",
+                          "stopColor": "#DEDEDE",
+                          "style": {
+                            "stopColor": "#DEDEDE"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.29",
+                          "stopColor": "#EBEBEB",
+                          "style": {
+                            "stopColor": "#EBEBEB"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.54",
+                          "stopColor": "#9F9F9F",
+                          "style": {
+                            "stopColor": "#9F9F9F"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.76",
+                          "stopColor": "#656565",
+                          "style": {
+                            "stopColor": "#656565"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.91",
+                          "stopColor": "#414141",
+                          "style": {
+                            "stopColor": "#414141"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#333333",
+                          "style": {
+                            "stopColor": "#333333"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientTransform": "matrix(-1 0 0 1 71.6436 0)",
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_5_",
+                      "name": "SVGID_5_",
+                      "r": "47.8173",
+                      "type": "radialGradient"
+                    },
+                    {
+                      "d": "M71.921,65.735c-3.938,0.861-32.074,3.65-37.239,3.077c0,8.465,0.431,37.409,0.431,37.409   c1.578,0.287,5.911-0.454,5.911-0.454L71.921,65.735z",
+                      "fill": {
+                        "url": "url(#SVGID_5_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    },
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0.06",
+                          "stopColor": "#808080",
+                          "style": {
+                            "stopColor": "#808080"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.13",
+                          "stopColor": "#8D8D8D",
+                          "style": {
+                            "stopColor": "#8D8D8D"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.28",
+                          "stopColor": "#B0B0B0",
+                          "style": {
+                            "stopColor": "#B0B0B0"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.48",
+                          "stopColor": "#E8E8E8",
+                          "style": {
+                            "stopColor": "#E8E8E8"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.48",
+                          "stopColor": "#EBEBEB",
+                          "style": {
+                            "stopColor": "#EBEBEB"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.57",
+                          "stopColor": "#E0E0E0",
+                          "style": {
+                            "stopColor": "#E0E0E0"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.72",
+                          "stopColor": "#C3C3C3",
+                          "style": {
+                            "stopColor": "#C3C3C3"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.92",
+                          "stopColor": "#949494",
+                          "style": {
+                            "stopColor": "#949494"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#808080",
+                          "style": {
+                            "stopColor": "#808080"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_6_",
+                      "name": "SVGID_6_",
+                      "type": "linearGradient",
+                      "x1": "5.2495",
+                      "x2": "67.0854",
+                      "y1": "1.5713",
+                      "y2": "1.5713"
+                    },
+                    {
+                      "d": "M5.25,2.074L37.081,0l30.005,2.25C46.099,3.799,14.404,3.06,5.25,2.074z",
+                      "fill": {
+                        "url": "url(#SVGID_6_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    },
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0.29",
+                          "stopColor": "#F7F7F7",
+                          "style": {
+                            "stopColor": "#F7F7F7"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.38",
+                          "stopColor": "#ECECEC",
+                          "style": {
+                            "stopColor": "#ECECEC"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.52",
+                          "stopColor": "#CFCFCF",
+                          "style": {
+                            "stopColor": "#CFCFCF"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.71",
+                          "stopColor": "#A0A0A0",
+                          "style": {
+                            "stopColor": "#A0A0A0"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.94",
+                          "stopColor": "#5F5F5F",
+                          "style": {
+                            "stopColor": "#5F5F5F"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#4D4D4D",
+                          "style": {
+                            "stopColor": "#4D4D4D"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_7_",
+                      "name": "SVGID_7_",
+                      "type": "linearGradient",
+                      "x1": "35.5142",
+                      "x2": "70.3922",
+                      "y1": "9.3345",
+                      "y2": "0.6384"
+                    },
+                    {
+                      "d": "M67.081,2.215c-8.732,0.422-28.45,0.5-31.69,0.641c-0.141,1.972-0.141,5.416-0.141,5.416   c5.916,0.141,33.904-0.623,36.67-1.508C69.756,4.609,67.081,2.215,67.081,2.215z",
+                      "fill": {
+                        "url": "url(#SVGID_7_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    },
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0.29",
+                          "stopColor": "#F7F7F7",
+                          "style": {
+                            "stopColor": "#F7F7F7"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.38",
+                          "stopColor": "#ECECEC",
+                          "style": {
+                            "stopColor": "#ECECEC"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.52",
+                          "stopColor": "#CFCFCF",
+                          "style": {
+                            "stopColor": "#CFCFCF"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.71",
+                          "stopColor": "#A0A0A0",
+                          "style": {
+                            "stopColor": "#A0A0A0"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.94",
+                          "stopColor": "#5F5F5F",
+                          "style": {
+                            "stopColor": "#5F5F5F"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#4D4D4D",
+                          "style": {
+                            "stopColor": "#4D4D4D"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientTransform": "matrix(-1 0 0 1 71.1709 0)",
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_8_",
+                      "name": "SVGID_8_",
+                      "type": "linearGradient",
+                      "x1": "34.7935",
+                      "x2": "69.617",
+                      "y1": "9.3145",
+                      "y2": "0.632"
+                    },
+                    {
+                      "d": "M4.839,2.088c8.732,0.422,28.45,0.5,31.69,0.641c0.141,1.972,0.141,5.416,0.141,5.416   C30.755,8.285,2.767,7.749,0,6.863C2.163,4.709,4.839,2.088,4.839,2.088z",
+                      "fill": {
+                        "url": "url(#SVGID_8_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    }
+                  ],
+                  "id": "Group_TankBody",
+                  "name": "Group_TankBody",
+                  "type": "group"
+                },
+                {
+                  "elements": [
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.45",
+                          "stopColor": "#ECECEC",
+                          "style": {
+                            "stopColor": "#ECECEC"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.55",
+                          "stopColor": "#D9D9D9",
+                          "style": {
+                            "stopColor": "#D9D9D9"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.76",
+                          "stopColor": "#A8A8A8",
+                          "style": {
+                            "stopColor": "#A8A8A8"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.77",
+                          "stopColor": "#A6A6A6",
+                          "style": {
+                            "stopColor": "#A6A6A6"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_9_",
+                      "name": "SVGID_9_",
+                      "type": "linearGradient",
+                      "x1": "8.3428",
+                      "x2": "16.2104",
+                      "y1": "92.7129",
+                      "y2": "92.7129"
+                    },
+                    {
+                      "d": "M16.21,83.013l-0.123,29.504H8.343V72.924l0.034,0.029c0.44-0.363,2.567,1.618,4.751,4.428   C15.312,80.188,16.21,83.013,16.21,83.013z",
+                      "fill": {
+                        "url": "url(#SVGID_9_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    },
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.45",
+                          "stopColor": "#ECECEC",
+                          "style": {
+                            "stopColor": "#ECECEC"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.55",
+                          "stopColor": "#D9D9D9",
+                          "style": {
+                            "stopColor": "#D9D9D9"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.76",
+                          "stopColor": "#A8A8A8",
+                          "style": {
+                            "stopColor": "#A8A8A8"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.77",
+                          "stopColor": "#A6A6A6",
+                          "style": {
+                            "stopColor": "#A6A6A6"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_10_",
+                      "name": "SVGID_10_",
+                      "type": "linearGradient",
+                      "x1": "7.1733",
+                      "x2": "17.1929",
+                      "y1": "111.9502",
+                      "y2": "111.9502"
+                    },
+                    {
+                      "fill": {
+                        "url": "url(#SVGID_10_)"
+                      },
+                      "height": "1.1",
+                      "name": "rect",
+                      "type": "rect",
+                      "width": "10.02",
+                      "x": "7.173",
+                      "y": "111.4"
+                    },
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.45",
+                          "stopColor": "#ECECEC",
+                          "style": {
+                            "stopColor": "#ECECEC"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.55",
+                          "stopColor": "#D9D9D9",
+                          "style": {
+                            "stopColor": "#D9D9D9"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.76",
+                          "stopColor": "#A8A8A8",
+                          "style": {
+                            "stopColor": "#A8A8A8"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.77",
+                          "stopColor": "#A6A6A6",
+                          "style": {
+                            "stopColor": "#A6A6A6"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientTransform": "matrix(-1 0 0 1 72.3662 0)",
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_11_",
+                      "name": "SVGID_11_",
+                      "type": "linearGradient",
+                      "x1": "8.8589",
+                      "x2": "16.7261",
+                      "y1": "92.7129",
+                      "y2": "92.7129"
+                    },
+                    {
+                      "d": "M55.64,83.013l0.123,29.504h7.744V72.924l-0.033,0.029c-0.441-0.363-2.568,1.618-4.752,4.428   C56.539,80.188,55.64,83.013,55.64,83.013z",
+                      "fill": {
+                        "url": "url(#SVGID_11_)"
+                      },
+                      "name": "path",
+                      "type": "path"
+                    },
+                    {
+                      "elements": [
+                        {
+                          "name": "stop",
+                          "offset": "0",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.45",
+                          "stopColor": "#ECECEC",
+                          "style": {
+                            "stopColor": "#ECECEC"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.55",
+                          "stopColor": "#D9D9D9",
+                          "style": {
+                            "stopColor": "#D9D9D9"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.76",
+                          "stopColor": "#A8A8A8",
+                          "style": {
+                            "stopColor": "#A8A8A8"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "0.77",
+                          "stopColor": "#A6A6A6",
+                          "style": {
+                            "stopColor": "#A6A6A6"
+                          },
+                          "type": "stop"
+                        },
+                        {
+                          "name": "stop",
+                          "offset": "1",
+                          "stopColor": "#383838",
+                          "style": {
+                            "stopColor": "#383838"
+                          },
+                          "type": "stop"
+                        }
+                      ],
+                      "gradientTransform": "matrix(-1 0 0 1 72.3662 0)",
+                      "gradientUnits": "userSpaceOnUse",
+                      "id": "SVGID_12_",
+                      "name": "SVGID_12_",
+                      "type": "linearGradient",
+                      "x1": "7.689",
+                      "x2": "17.7085",
+                      "y1": "111.9502",
+                      "y2": "111.9502"
+                    },
+                    {
+                      "fill": {
+                        "url": "url(#SVGID_12_)"
+                      },
+                      "height": "1.1",
+                      "name": "rect",
+                      "type": "rect",
+                      "width": "10.02",
+                      "x": "54.658",
+                      "y": "111.4"
+                    }
+                  ],
+                  "id": "Group_FrontLegs",
+                  "name": "Group_FrontLegs",
+                  "type": "group"
+                }
+              ],
+              "viewBox": "0 0 71.921 112.5"
+            },
+            "type": "ia.shapes.svg"
+          },
+          {
+            "meta": {
+              "name": "Tank 6"
+            },
+            "position": {
+              "height": 1,
+              "width": 0.9981,
+              "x": 0.0018,
+              "y": 0.0019
+            },
+            "props": {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "d": "M37.081 0 L5.25 2.074 C5.4304 2.0934 5.6196 2.1128 5.8173 2.132 L5.8173 2.132 C5.478 2.1178 5.1514 2.1031 4.839 2.088 C4.839 2.088 2.2089 4.664 0.056 6.8072 L0.056 6.8072 C0.0188 6.8038 0 6.802 0 6.802 L0 66.056 L8.343 76.5876 L8.343 76.5876 L8.343 111.4 L7.173 111.4 L7.173 112.5 L8.343 112.5 L8.343 112.517 L16.087 112.517 L16.0871 112.5 L17.193 112.5 L17.193 111.4 L16.0917 111.4 L16.1068 107.7774 L16.1068 107.7774 L21.674 107.618 L21.674 106.491 L20.547 106.491 L20.547 91.9931 L31.483 105.798 C31.483 105.798 33.2952 106.184 35.0711 106.184 C35.0848 106.184 35.0985 106.184 35.1123 106.1839 L35.1124 106.1839 C35.1128 106.2085 35.113 106.221 35.113 106.221 C35.369 106.2676 35.6975 106.2871 36.0683 106.2871 C37.9829 106.2871 41.024 105.767 41.024 105.767 L51.85 91.7402 L51.85 91.7402 L51.85 104.519 L50.723 104.519 L50.723 105.872 L55.7347 105.7285 L55.7347 105.7285 L55.7583 111.4 L54.658 111.4 L54.658 112.5 L55.7629 112.5 L55.763 112.517 L63.507 112.517 L63.507 112.5 L64.678 112.5 L64.678 111.4 L63.507 111.4 L63.507 76.6367 L71.7689 65.9321 L71.7689 65.9321 C71.8195 65.9254 71.8703 65.9187 71.921 65.912 C71.921 65.912 71.921 65.8517 71.921 65.735 L71.921 65.735 L71.921 65.735 L71.921 65.735 C71.921 65.735 71.921 65.735 71.921 65.735 L71.921 65.735 C71.921 62.3788 71.9209 12.3547 71.919 6.7643 L71.919 6.7643 C71.9193 6.7642 71.9197 6.7641 71.92 6.764 C71.9197 6.7637 71.9193 6.7633 71.919 6.763 L71.919 6.763 C71.919 6.763 71.919 6.763 71.919 6.763 C71.919 6.763 71.919 6.763 71.919 6.763 L71.919 6.763 C69.7552 4.6083 67.081 2.215 67.081 2.215 C66.9878 2.2195 66.8934 2.224 66.7978 2.2284 L66.7978 2.2284 L37.081 0 Z",
+                      "name": "path",
+                      "stroke": {
+                        "paint": "transparent"
+                      },
+                      "type": "path"
+                    }
+                  ],
+                  "fill": {
+                    "opacity": "0.502",
+                    "paint": "#C19762"
+                  },
+                  "name": "group",
+                  "stroke": {
+                    "opacity": "0.502",
+                    "paint": "rgb(128,128,128)"
+                  },
+                  "type": "group"
+                }
+              ],
+              "viewBox": "0 0 71.921 112.5"
+            },
+            "type": "ia.shapes.svg"
+          },
+          {
+            "meta": {
+              "name": "Thermometer"
+            },
+            "position": {
+              "height": 0.4181,
+              "width": 0.1229,
+              "x": 0.6446,
+              "y": 0.1128
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "stationref": "{view.params.stationref}"
+                    },
+                    "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {stationref}/waterTemp"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "intervals": [
+                {
+                  "color": "#8AFFFF",
+                  "high": 25,
+                  "low": 0
+                },
+                {
+                  "color": "#8AFF8A",
+                  "high": 75,
+                  "low": 25
+                },
+                {
+                  "color": "#DB3939",
+                  "high": 100,
+                  "low": 75
+                }
+              ],
+              "style": {
+                "classes": "userCreatedStyle1"
+              },
+              "valueFont": {
+                "fontSize": 0
+              }
+            },
+            "type": "ia.display.thermometer"
+          },
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "height": 0.1706,
+              "width": 0.3721,
+              "x": 0.2812,
+              "y": 0.2423
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "stationref": "{view.params.stationref}"
+                    },
+                    "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {stationref}/waterTemp"
+                  },
+                  "transforms": [
+                    {
+                      "formatType": "numeric",
+                      "formatValue": "##.## °F",
+                      "type": "format"
+                    }
+                  ],
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "backgroundColor": "#5555558A",
+                "borderColor": "#D5D5D596",
+                "borderStyle": "inset"
+              },
+              "textStyle": {
+                "color": "#FFFFFFC4",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "textAlign": "center"
+              }
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "CoordinateContainer"
+        },
+        "position": {
+          "basis": "491px"
+        },
+        "props": {
+          "mode": "percent"
+        },
+        "type": "ia.container.coord"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

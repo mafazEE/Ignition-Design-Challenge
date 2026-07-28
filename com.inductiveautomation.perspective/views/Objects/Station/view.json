@@ -1,0 +1,360 @@
+{
+  "custom": {},
+  "params": {
+    "brewstation": 3
+  },
+  "propConfig": {
+    "params.brewstation": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 311,
+      "width": 196
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Station Number"
+            },
+            "position": {
+              "basis": "50px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "expression": "\"Brew Station \" + {view.params.brewstation}"
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "textStyle": {
+                "color": "#F7F0F0",
+                "fontFamily": "inherit",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 10,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 10,
+                "textAlign": "center"
+              }
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "Label Cont"
+        },
+        "position": {
+          "basis": "72px"
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "paddingTop": 20
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "EmbeddedView"
+            },
+            "position": {
+              "basis": "320px"
+            },
+            "propConfig": {
+              "props.params.stationref": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.brewstation"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "path": "Objects/Coffeebrew Tank"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "300px"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "EmbeddedView"
+            },
+            "position": {
+              "basis": "26px"
+            },
+            "propConfig": {
+              "props.params.Value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "brewstation": "{view.params.brewstation}"
+                    },
+                    "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {brewstation}/brewType"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "params": {
+                "Label": "Brew Type : "
+              },
+              "path": "Objects/Card"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "113px"
+                },
+                "props": {
+                  "alignVertical": "top",
+                  "style": {
+                    "color": "#F6F2FF",
+                    "fontSize": 12,
+                    "marginRight": 25,
+                    "textAlign": "left"
+                  },
+                  "text": "Machine Status :",
+                  "textStyle": {
+                    "textAlign": "left"
+                  }
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "MultiStateButton"
+                },
+                "position": {
+                  "basis": "40px"
+                },
+                "propConfig": {
+                  "props.controlValue": {
+                    "binding": {
+                      "config": {
+                        "bidirectional": true,
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "brewstation": "{view.params.brewstation}"
+                        },
+                        "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {brewstation}/status"
+                      },
+                      "type": "tag"
+                    }
+                  },
+                  "props.indicatorValue": {
+                    "binding": {
+                      "config": {
+                        "bidirectional": true,
+                        "fallbackDelay": 2.5,
+                        "mode": "indirect",
+                        "references": {
+                          "brewstation": "{view.params.brewstation}"
+                        },
+                        "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {brewstation}/status"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "props": {
+                  "buttonGap": 1,
+                  "states": [
+                    {
+                      "selectedStyle": {
+                        "backgroundColor": "#FB9D9D7D",
+                        "classes": "",
+                        "color": "#FFFFFF",
+                        "fontSize": 8
+                      },
+                      "text": "Off",
+                      "unselectedStyle": {
+                        "backgroundColor": "#FFE8CC66",
+                        "classes": "",
+                        "fontSize": 7
+                      },
+                      "value": 0
+                    },
+                    {
+                      "selectedStyle": {
+                        "backgroundColor": "#E38E25E6",
+                        "classes": "",
+                        "fontSize": 7
+                      },
+                      "text": "Brew",
+                      "unselectedStyle": {
+                        "backgroundColor": "#FFE8CC3D",
+                        "classes": "",
+                        "color": "#FFFFFF",
+                        "fontSize": 8
+                      },
+                      "value": 1
+                    },
+                    {
+                      "selectedStyle": {
+                        "backgroundColor": "#CCFFCC",
+                        "classes": "",
+                        "fontSize": 7
+                      },
+                      "text": "Clean",
+                      "unselectedStyle": {
+                        "backgroundColor": "#FFE8CC3D",
+                        "classes": "",
+                        "color": "#FFFFFF",
+                        "fontSize": 8
+                      },
+                      "value": 2
+                    }
+                  ]
+                },
+                "type": "ia.input.multi-state-button"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "props": {
+              "style": {
+                "overflow": "hidden"
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Other Detals Cont"
+        },
+        "position": {
+          "basis": "150px"
+        },
+        "props": {
+          "direction": "column",
+          "justify": "space-around",
+          "style": {
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderColor": "#80808073",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "borderWidth": 3,
+            "marginBottom": 5,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10,
+            "paddingLeft": 5,
+            "paddingRight": 5
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "draggable": true,
+                    "id": "pBM4ZxZe",
+                    "modal": false,
+                    "overlayDismiss": false,
+                    "position": {
+                      "relativeLocation": "right"
+                    },
+                    "positionType": "relative",
+                    "resizable": true,
+                    "showCloseIcon": true,
+                    "type": "open",
+                    "viewParams": {
+                      "Stationref": "{view.params.brewstation}"
+                    },
+                    "viewPath": "Primary/Popup View",
+                    "viewportBound": true
+                  },
+                  "scope": "C",
+                  "type": "popup"
+                }
+              }
+            },
+            "meta": {
+              "name": "Icon"
+            },
+            "position": {
+              "height": 0.825,
+              "width": 0.1059,
+              "x": 0.86,
+              "y": 0.0297
+            },
+            "props": {
+              "color": "#FFFFFF8C",
+              "path": "material/open_in_new"
+            },
+            "type": "ia.display.icon"
+          }
+        ],
+        "meta": {
+          "name": "CoordinateContainer"
+        },
+        "position": {
+          "basis": "40px"
+        },
+        "props": {
+          "mode": "percent"
+        },
+        "type": "ia.container.coord"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "justify": "space-around",
+      "style": {
+        "backgroundColor": "transparent",
+        "overflow": "visible"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

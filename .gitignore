@@ -1,0 +1,8 @@
+.resources/
+.gateway_backups/
+.images/
+*.gwbk
+node_modules/
+.DS_Store
+
+
