@@ -6,13 +6,21 @@ The Doco highlights a fictional company called RioOso owning a cold brew coffee 
 
 # Software Used
 Ignition SCADA/HMI Platform
+
 Ignition Driver Module
+
 Ignition Historian Module
+
 Ignition Alarm notification Module
+
 Ignition Reporting Module
 
+
 PostgreSQL Server
+
 PGAdmin
+
 Papercut SMTP email emulator
 
 # Application Demo
+![image alt](https://github.com/mafazEE/Ignition-Design-Challenge/blob/5cbeb311f665de099dff0d563ff85d32e5ec9eda/Level%200%20Brewing%20Stations%20Overview%20DisplayM.png)
