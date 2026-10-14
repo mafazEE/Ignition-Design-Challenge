@@ -1,7 +1,7 @@
 {
   "custom": {},
   "params": {
-    "brewstation": 3
+    "brewstation": 1
   },
   "propConfig": {
     "params.brewstation": {
@@ -11,8 +11,8 @@
   },
   "props": {
     "defaultSize": {
-      "height": 311,
-      "width": 196
+      "height": 313,
+      "width": 206
     }
   },
   "root": {
@@ -213,7 +213,7 @@
                     },
                     {
                       "selectedStyle": {
-                        "backgroundColor": "#E38E25E6",
+                        "backgroundColor": "#CCCCFF",
                         "classes": "",
                         "fontSize": 7
                       },
@@ -351,7 +351,7 @@
       "direction": "column",
       "justify": "space-around",
       "style": {
-        "backgroundColor": "transparent",
+        "backgroundColor": "#808080A1",
         "overflow": "visible"
       }
     },

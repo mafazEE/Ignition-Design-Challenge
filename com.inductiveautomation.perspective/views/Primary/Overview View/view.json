@@ -1,0 +1,608 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 1641,
+      "width": 936
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 1
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_0"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 2
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_1"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 3
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_2"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 4
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_3"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 5
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_4"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 6
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_5"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 7
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_6"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 8
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_7"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 9
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_8"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 10
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_9"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 11
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_10"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 12
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_11"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 13
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_12"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 14
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_13"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 15
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_14"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 16
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_15"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 17
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_16"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 18
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_17"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 19
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_18"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "props": {
+          "params": {
+            "brewstation": 20
+          },
+          "path": "Objects/Station",
+          "style": {
+            "borderBottomLeftRadius": 7,
+            "borderBottomRightRadius": 7,
+            "borderColor": "#CDC5BD30",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 7,
+            "borderTopRightRadius": 7,
+            "borderWidth": "3px",
+            "marginBottom": 10,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": 10
+          },
+          "useDefaultViewHeight": true
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "alignContent": "space-between",
+      "alignItems": "center",
+      "justify": "space-evenly",
+      "style": {
+        "backgroundColor": "#4B4E52",
+        "overflow": "scroll"
+      },
+      "wrap": "wrap"
+    },
+    "type": "ia.container.flex"
+  }
+}

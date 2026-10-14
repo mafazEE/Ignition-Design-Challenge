@@ -1,0 +1,40 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "Rio",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "def01c65cbb57eb2d12fca329bcfe2da74fa75b6a3b154a492c8ff3ae9610c82",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "mxxxz",
+      "timestamp": "2026-09-28T13:14:25Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "catid",
+        "sqlType": 2
+      }
+    ]
+  }
+}

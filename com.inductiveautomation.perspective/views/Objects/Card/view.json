@@ -2,22 +2,22 @@
   "custom": {},
   "params": {
     "Label": "name",
-    "Value": 123
+    "Value": "a1"
   },
   "propConfig": {
     "params.Label": {
-      "paramDirection": "input",
+      "paramDirection": "inout",
       "persistent": true
     },
     "params.Value": {
-      "paramDirection": "input",
+      "paramDirection": "inout",
       "persistent": true
     }
   },
   "props": {
     "defaultSize": {
-      "height": 68,
-      "width": 298
+      "height": 58,
+      "width": 325
     }
   },
   "root": {
@@ -27,7 +27,7 @@
           "name": "Label"
         },
         "position": {
-          "basis": "203px"
+          "basis": "143px"
         },
         "propConfig": {
           "props.text": {
@@ -53,7 +53,7 @@
           "name": "Value"
         },
         "position": {
-          "basis": "40px"
+          "basis": "145px"
         },
         "propConfig": {
           "props.text": {
@@ -63,9 +63,212 @@
               },
               "transforms": [
                 {
-                  "formatType": "numeric",
-                  "formatValue": "##.##",
-                  "type": "format"
+                  "fallback": "why",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": "Classic"
+                    },
+                    {
+                      "input": 1,
+                      "output": "Nitro"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Dark Roast"
+                    },
+                    {
+                      "input": 3,
+                      "output": "Medium Roast"
+                    },
+                    {
+                      "input": 4,
+                      "output": "Light Roast"
+                    },
+                    {
+                      "input": 5,
+                      "output": "Extra Strong"
+                    },
+                    {
+                      "input": 6,
+                      "output": "Sweet Cream"
+                    },
+                    {
+                      "input": 7,
+                      "output": "Espresso Tonic"
+                    },
+                    {
+                      "input": 8,
+                      "output": "Vanilla"
+                    },
+                    {
+                      "input": 9,
+                      "output": "Caramel"
+                    },
+                    {
+                      "input": 10,
+                      "output": "Hazelnut"
+                    },
+                    {
+                      "input": 11,
+                      "output": "Mocha"
+                    },
+                    {
+                      "input": 12,
+                      "output": "Almond"
+                    },
+                    {
+                      "input": 13,
+                      "output": "Coconut"
+                    },
+                    {
+                      "input": 14,
+                      "output": "Maple"
+                    },
+                    {
+                      "input": 15,
+                      "output": "Honey"
+                    },
+                    {
+                      "input": 16,
+                      "output": "Cinnamon"
+                    },
+                    {
+                      "input": 17,
+                      "output": "Peppermint"
+                    },
+                    {
+                      "input": 18,
+                      "output": "Spiced Pumpkin"
+                    },
+                    {
+                      "input": 19,
+                      "output": "Tiramisu"
+                    },
+                    {
+                      "input": 20,
+                      "output": "Brownie Batter"
+                    },
+                    {
+                      "input": 21,
+                      "output": "Salted Caramel"
+                    },
+                    {
+                      "input": 22,
+                      "output": "SO Colombia"
+                    },
+                    {
+                      "input": 23,
+                      "output": "SO Ethiopia"
+                    },
+                    {
+                      "input": 24,
+                      "output": "SO Brazil"
+                    },
+                    {
+                      "input": 25,
+                      "output": "SO Guatemala"
+                    },
+                    {
+                      "input": 26,
+                      "output": "SO Kenya"
+                    },
+                    {
+                      "input": 27,
+                      "output": "SO Sumatra"
+                    },
+                    {
+                      "input": 28,
+                      "output": "SO Costa Rica"
+                    },
+                    {
+                      "input": 29,
+                      "output": "Panama"
+                    },
+                    {
+                      "input": 30,
+                      "output": "Oat Milk"
+                    },
+                    {
+                      "input": 31,
+                      "output": "Almond Milk"
+                    },
+                    {
+                      "input": 32,
+                      "output": "Coconut Milk"
+                    },
+                    {
+                      "input": 33,
+                      "output": "Whole Milk"
+                    },
+                    {
+                      "input": 34,
+                      "output": "Passion Fruit"
+                    },
+                    {
+                      "input": 35,
+                      "output": "Mango"
+                    },
+                    {
+                      "input": 36,
+                      "output": "Pineapple"
+                    },
+                    {
+                      "input": 37,
+                      "output": "Strawberry"
+                    },
+                    {
+                      "input": 38,
+                      "output": "Blueberry"
+                    },
+                    {
+                      "input": 39,
+                      "output": "Raspberry"
+                    },
+                    {
+                      "input": 40,
+                      "output": "Peach"
+                    },
+                    {
+                      "input": 41,
+                      "output": "Lemon"
+                    },
+                    {
+                      "input": 42,
+                      "output": "Orange"
+                    },
+                    {
+                      "input": 43,
+                      "output": "Grapefruit"
+                    },
+                    {
+                      "input": 44,
+                      "output": "Chai"
+                    },
+                    {
+                      "input": 45,
+                      "output": "Lavender"
+                    },
+                    {
+                      "input": 46,
+                      "output": "Rose"
+                    },
+                    {
+                      "input": 47,
+                      "output": "Irish Cream"
+                    },
+                    {
+                      "input": 48,
+                      "output": "Half-Calf"
+                    },
+                    {
+                      "input": 49,
+                      "output": "Decaf"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
                 }
               ],
               "type": "property"
@@ -75,8 +278,8 @@
         "props": {
           "textStyle": {
             "color": "#F6F2FF",
-            "fontSize": 14,
-            "textAlign": "center"
+            "fontSize": 12,
+            "textAlign": "right"
           }
         },
         "type": "ia.display.label"
@@ -86,7 +289,7 @@
       "name": "root"
     },
     "props": {
-      "justify": "space-around",
+      "justify": "space-between",
       "style": {
         "backgroundColor": "transparent"
       }

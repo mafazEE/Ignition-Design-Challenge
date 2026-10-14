@@ -1,0 +1,144 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "113px"
+            },
+            "props": {
+              "alignVertical": "top",
+              "style": {
+                "color": "#F6F2FF",
+                "fontSize": 12,
+                "marginRight": 25,
+                "textAlign": "left"
+              },
+              "text": "Machine Status :",
+              "textStyle": {
+                "textAlign": "left"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "MultiStateButton"
+            },
+            "position": {
+              "basis": "64px"
+            },
+            "propConfig": {
+              "props.controlValue": {
+                "binding": {
+                  "config": {
+                    "bidirectional": true,
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {},
+                    "tagPath": "[0"
+                  },
+                  "type": "tag"
+                }
+              },
+              "props.indicatorValue": {
+                "binding": {
+                  "config": {
+                    "bidirectional": true,
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "brewstation": "{view.params.brewstation}"
+                    },
+                    "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {brewstation}/status"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "buttonGap": 1,
+              "states": [
+                {
+                  "selectedStyle": {
+                    "backgroundColor": "#FB9D9D7D",
+                    "classes": "",
+                    "color": "#FFFFFF",
+                    "fontSize": 8
+                  },
+                  "text": "Off",
+                  "unselectedStyle": {
+                    "backgroundColor": "#FFE8CC66",
+                    "classes": "",
+                    "fontSize": 7
+                  },
+                  "value": 0
+                },
+                {
+                  "selectedStyle": {
+                    "backgroundColor": "#CCCCFF",
+                    "classes": "",
+                    "fontSize": 7
+                  },
+                  "text": "Brew",
+                  "unselectedStyle": {
+                    "backgroundColor": "#FFE8CC3D",
+                    "classes": "",
+                    "color": "#FFFFFF",
+                    "fontSize": 8
+                  },
+                  "value": 1
+                },
+                {
+                  "selectedStyle": {
+                    "backgroundColor": "#CCFFCC",
+                    "classes": "",
+                    "fontSize": 7
+                  },
+                  "text": "Clean",
+                  "unselectedStyle": {
+                    "backgroundColor": "#FFE8CC3D",
+                    "classes": "",
+                    "color": "#FFFFFF",
+                    "fontSize": 8
+                  },
+                  "value": 2
+                }
+              ]
+            },
+            "type": "ia.input.multi-state-button"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "height": 103,
+          "width": 246
+        },
+        "props": {
+          "style": {
+            "overflow": "hidden"
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "grey"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

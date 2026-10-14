@@ -1,0 +1,1 @@
+SELECT id AS value, name AS label FROM brew_categories ORDER BY name

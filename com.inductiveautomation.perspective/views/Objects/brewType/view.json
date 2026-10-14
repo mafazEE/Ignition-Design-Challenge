@@ -1,0 +1,121 @@
+{
+  "custom": {},
+  "params": {
+    "brewref": 1
+  },
+  "propConfig": {
+    "params.brewref": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 37,
+      "width": 429
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "basis": "153px"
+        },
+        "props": {
+          "style": {
+            "color": "#FFFFFFB5",
+            "fontSize": 14,
+            "fontWeight": "bold"
+          },
+          "text": "Brew Type Adjust: "
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Dropdown"
+        },
+        "position": {
+          "basis": "130px"
+        },
+        "propConfig": {
+          "props.options": {
+            "binding": {
+              "config": {
+                "polling": {
+                  "enabled": true,
+                  "rate": "30"
+                },
+                "queryPath": "GetGategories",
+                "returnFormat": "json"
+              },
+              "type": "query"
+            }
+          }
+        },
+        "props": {
+          "value": 5
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
+          "name": "Dropdown_0"
+        },
+        "position": {
+          "basis": "170px"
+        },
+        "propConfig": {
+          "props.options": {
+            "binding": {
+              "config": {
+                "parameters": {
+                  "catid": "{../Dropdown.props.value}"
+                },
+                "queryPath": "GetProductByCategory"
+              },
+              "type": "query"
+            }
+          },
+          "props.value": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "fallbackDelay": 6,
+                "mode": "indirect",
+                "references": {
+                  "brewref": "{view.params.brewref}"
+                },
+                "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {brewref}/brewType"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "placeholder": {
+            "icon": {
+              "style": {
+                "width": "30px"
+              }
+            }
+          }
+        },
+        "type": "ia.input.dropdown"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "justify": "space-around",
+      "style": {
+        "backgroundColor": "transparent"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

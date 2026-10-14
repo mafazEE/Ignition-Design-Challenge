@@ -13,7 +13,7 @@
           "name": "MenuTree"
         },
         "position": {
-          "basis": "800px"
+          "basis": "900px"
         },
         "props": {
           "backActionStyle": {

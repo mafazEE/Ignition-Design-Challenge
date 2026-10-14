@@ -38,7 +38,7 @@
             },
             "props": {
               "page": 1,
-              "pageCount": 10,
+              "pageCount": 160,
               "source": "Staion3Report"
             },
             "type": "ia.reporting.report-viewer"
@@ -66,7 +66,16 @@
               "basis": "32px"
             },
             "props": {
-              "formattedValue": null
+              "formattedValue": "Oct 6, 2026 12:00 AM",
+              "placeholder": "Select start date",
+              "value": {
+                "$": [
+                  "ts",
+                  0,
+                  1791923258348
+                ],
+                "$ts": 1791230400000
+              }
             },
             "type": "ia.input.date-time-input"
           },
@@ -78,7 +87,8 @@
               "basis": "32px"
             },
             "props": {
-              "formattedValue": null
+              "formattedValue": null,
+              "placeholder": "Select end date"
             },
             "type": "ia.input.date-time-input"
           }

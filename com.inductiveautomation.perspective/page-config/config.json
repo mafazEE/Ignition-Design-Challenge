@@ -2,7 +2,7 @@
   "pages": {
     "/": {
       "title": "",
-      "viewPath": "Primary/Overview"
+      "viewPath": "Primary/Overview View"
     },
     "/alarm-view": {
       "title": "",

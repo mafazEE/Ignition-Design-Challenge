@@ -11,8 +11,8 @@
   },
   "props": {
     "defaultSize": {
-      "height": 299,
-      "width": 301
+      "height": 324,
+      "width": 324
     },
     "inputBehavior": "merge"
   },
@@ -1137,12 +1137,64 @@
               "name": "Thermometer"
             },
             "position": {
-              "height": 0.4181,
-              "width": 0.1229,
-              "x": 0.6446,
-              "y": 0.1128
+              "height": 0.5351,
+              "width": 0.196,
+              "x": 0.5979,
+              "y": 0.0793
             },
             "propConfig": {
+              "props.intervals[0].high": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "stationref": "{view.params.stationref}"
+                    },
+                    "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {stationref}/lowSP"
+                  },
+                  "type": "tag"
+                }
+              },
+              "props.intervals[1].high": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "stationref": "{view.params.stationref}"
+                    },
+                    "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {stationref}/highSP"
+                  },
+                  "type": "tag"
+                }
+              },
+              "props.intervals[1].low": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "stationref": "{view.params.stationref}"
+                    },
+                    "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {stationref}/lowSP"
+                  },
+                  "type": "tag"
+                }
+              },
+              "props.intervals[2].low": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "stationref": "{view.params.stationref}"
+                    },
+                    "tagPath": "[Rio_tag_provider]brew_tags/Brewing station {stationref}/highSP"
+                  },
+                  "type": "tag"
+                }
+              },
               "props.value": {
                 "binding": {
                   "config": {
@@ -1161,23 +1213,20 @@
               "intervals": [
                 {
                   "color": "#8AFFFF",
-                  "high": 25,
                   "low": 0
                 },
                 {
-                  "color": "#8AFF8A",
-                  "high": 75,
-                  "low": 25
+                  "color": "#8AFF8A"
                 },
                 {
                   "color": "#DB3939",
-                  "high": 100,
-                  "low": 75
+                  "high": 100
                 }
               ],
               "style": {
                 "classes": "userCreatedStyle1"
               },
+              "unit": "F",
               "valueFont": {
                 "fontSize": 0
               }
@@ -1189,9 +1238,9 @@
               "name": "Label"
             },
             "position": {
-              "height": 0.1706,
-              "width": 0.3721,
-              "x": 0.2812,
+              "height": 0.1605,
+              "width": 0.3256,
+              "x": 0.3045,
               "y": 0.2423
             },
             "propConfig": {
