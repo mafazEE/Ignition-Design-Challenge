@@ -23,4 +23,8 @@ PGAdmin
 Papercut SMTP email emulator
 
 # Application Demo
+Level 0 Overview Display 
 ![image alt](https://github.com/mafazEE/Ignition-Design-Challenge/blob/5cbeb311f665de099dff0d563ff85d32e5ec9eda/Level%200%20Brewing%20Stations%20Overview%20DisplayM.png)
+
+Level 1 Brewing Station Detail and Control Pop-up Display
+
