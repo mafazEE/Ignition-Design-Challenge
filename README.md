@@ -63,7 +63,7 @@ The display consists of:
 ![image alt](https://github.com/mafazEE/Ignition-Design-Challenge/blob/90024aa2d3adc87c15e00197e647f88296c9f573/Alarm%20Real-time%20and%20Historical%20List.png)
 
 ## Twice-a-day Automatically Generated Report on Station 3 Display
-![image alt](https://github.com/mafazEE/Ignition-Design-Challenge/blob/90024aa2d3adc87c15e00197e647f88296c9f573/Automatically%20Generated%20Station%20Report.png)
+![image alt]([https://github.com/mafazEE/Ignition-Design-Challenge/blob/90024aa2d3adc87c15e00197e647f88296c9f573/Automatically%20Generated%20Station%20Report.png](https://github.com/mafazEE/Ignition-Design-Challenge/blob/8482c9f6cec8ccf85f4db0d3ec64b7a6a02a18a5/Automatically%20Generated%20Report%20W/%20Date%20Input.png))
 
 ## Verification of Off-System Alarm Notification using Papercut SMTP
 ![image alt](https://github.com/mafazEE/Ignition-Design-Challenge/blob/90024aa2d3adc87c15e00197e647f88296c9f573/Off-system%20Alarm%20Notification%20using%20Papercut%20SMTP.png)
